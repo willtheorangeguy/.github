@@ -42,6 +42,18 @@ You can also **[fork](https://github.com/willtheorangeguy/.github/fork) the repo
 
 ## How To Use
 
+```text
+├── ISSUE_TEMPLATE
+|   ├── bug-report.md
+|   ├── feature-request.md
+|   ├── question.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── FUNDING.yml
+├── PULL_REQUEST_TEMPLATE.md
+└── SECURITY.md
+```
+
 To add these projects to your own repository, just download or create a fork following the instructions above. Then edit each of the files to match the goals of your community. Commit and upload the files, and you're all set!
 
 ## Support
