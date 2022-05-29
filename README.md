@@ -68,8 +68,8 @@ If you need more assistance in setting up your GitHub community, visit their ded
 
 ## You may also like...
 
-* [PyWorkout](https://github.com/willtheorangeguy/PyWorkout) - A minimal CLI to keep you inspired during your workout!
-* [PyAvatar](https://github.com/willtheorangeguy/PyAvatar) - Easily display all of your creative avatars to keep them consistent across websites.
+* [Running Calculator](https://github.com/willtheorangeguy/Running-Calculator) - A running distance and speed command line interface.
+* [Snoopy Landing Page](https://github.com/willtheorangeguy/Snoopy-Landing-Page) - A simple under construction landing page that features Charles M. Schulz's iconic Snoopy Beagle.
 * [Python Logo Widgets](https://github.com/willtheorangeguy/Python-Logo-Widgets) - Python Powered Logo widgets that can be added to any GUI project.
 
 ## License
