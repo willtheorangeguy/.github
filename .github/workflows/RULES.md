@@ -7,7 +7,7 @@
 - Pylint
 - Test
 - Docker Publish
-- Pep8Speaks
+- [Pep8Speaks](https://github.com/apps/pep8-speaks)
 - cibuildhweel
 - CodeQL
 
