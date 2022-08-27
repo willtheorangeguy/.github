@@ -12,5 +12,5 @@
 - CodeQL
 
 # Web Only:
-- Test
+- Pages
 - CodeQL
