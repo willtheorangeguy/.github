@@ -1,0 +1,8 @@
+ALWAYS:
+ - gitleaks
+
+PYTHON:
+Dependency Review, Push to PyPi, Pylint, Test, Docker Publish, Pep8Speaks, cibuildhweel, CodeQL
+
+WEB:
+CodeQL

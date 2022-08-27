@@ -28,6 +28,7 @@ If applicable, add screenshots to help explain your problem.
 
 - OS: [e.g. Windows]
 - Program Version [e.g. 22]
+- Python Version [e.g. 3.9.1]
 
 **Additional Context**
 Add any other context about the problem here.

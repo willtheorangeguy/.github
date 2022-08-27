@@ -18,6 +18,8 @@ If applicable, add screenshots to help explain your problem.
 
 - OS: [e.g. Windows]
 - Program Version [e.g. 22]
+- Browser [Edge Chromium]
+- Browser Version [e.g. 69]
 
 **Additional Context**
 
