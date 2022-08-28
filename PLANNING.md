@@ -1,0 +1,6 @@
+# Planning
+
+## Template Version 1.0.0
+
+- [ ] ...
+- [ ] ...

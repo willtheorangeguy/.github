@@ -6,15 +6,16 @@ If you believe you have found a security vulnerability in any repository, please
 
 ## Supported Versions
 
-The following versions of this @willtheorangeguy project are currently supported:
+The following versions of %PROGRAM NAME% are currently supported:
 
-| Version  | Supported          |
-| -------- | ------------------ |
-| `>0.x.x` | :white_check_mark: |
+| Version | Supported          |
+| ------- | ------------------ |
+| `1.0.x` | :white_check_mark: |
+| `0.x.x` | :x:                |
 
 ## Reporting a Vulnerability
 
-Please open an issue to report a security vulnerability. Please include the requested information listed below (as much as you can provide) to help us better understand the nature and scope of the possible issue:
+Please open an [issue](%NEW ISSUE LINK%) to report a security vulnerability. Please include the requested information listed below (as much as you can provide) to help us better understand the nature and scope of the possible issue:
 
 * Type of issue (e.g. buffer overflow, SQL injection, cross-site scripting, etc.)
 * Full paths of source file(s) related to the manifestation of the issue
@@ -25,4 +26,4 @@ Please open an issue to report a security vulnerability. Please include the requ
 * Impact of the issue, including how an attacker might exploit the issue
 * This information will help us triage your report more quickly.
 
-Contributions should follow the [`CODE_OF_CONDUCT`](CODE_OF_CONDUCT.md) and [`CONTRIBUTING`](CONTRIBUTING.md) documents. 
+Contributions should follow the [`CODE_OF_CONDUCT`](CODE_OF_CONDUCT.md) and [`CONTRIBUTING`](CONTRIBUTING.md) documents.
