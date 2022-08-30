@@ -74,4 +74,4 @@ If you need more assistance in setting up your GitHub community, visit their ded
 
 ## License
 
-This project is licensed under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/) - see the [`LICENSE`](LICENSE.md) file for details. The logo image is used under the same license, with the original available [here](https://commons.wikimedia.org/wiki/File:01_Icon-Community@2x.png). 
+This project is licensed under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/) - see the [`LICENSE`](LICENSE.md) file for details. The logo image is used under the same license, with the original available [here](https://commons.wikimedia.org/wiki/File:01_Icon-Community@2x.png).

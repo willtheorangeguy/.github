@@ -43,7 +43,7 @@ Please contribute using [GitHub Flow](https://guides.github.com/introduction/flo
 
 ### Do you have questions about the source code?
 
-- Ask any question about how to use this project on our [Discord]().
+- Ask any question about how to use this project on our Discord.s
 - If it does not get answered, open an Issue!  
 
 ## Coding Conventions
