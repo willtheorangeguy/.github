@@ -1,7 +1,11 @@
-# Always
+# GitHub Actions Rules
+
+## Always
+
 - gitleaks
 
-# Python Only
+## Python Only
+
 - Dependency Review
 - Push to PyPi
 - Pylint
@@ -11,6 +15,7 @@
 - cibuildhweel
 - CodeQL
 
-# Web Only:
+## Web Only
+
 - Pages
 - CodeQL

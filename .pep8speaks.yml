@@ -18,5 +18,5 @@ message:  # Customize the comment made by the bot
         footer: ""
     updated:  # Messages when new commits are added to the PR
         header: "Hello @{name}! Thanks for updating this PR."
-        footer: ""  # Why to comment the link to the style guide everytime? :)
+        footer: ""  # Why to comment the link to the style guide every time? :)
     no_errors: "There are currently no PEP 8 issues detected in this Pull Request."
