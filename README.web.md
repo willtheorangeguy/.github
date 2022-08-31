@@ -59,6 +59,18 @@ $ cd %PROGRAM NAME%
 $ index.html
 ```
 
+You can also pull the [Docker](https://www.docker.com/) image from GitHub Packages. From your command line:
+
+```bash
+# Pull image
+$ docker pull %CONTAINER LINK%:master
+
+# Run container
+$ docker run -d -p 80 %CONTAINER LINK%:master
+
+# Now, navigate to localhost in your browser to see the webpage
+```
+
 If support is required, please open a **[GitHub Discussion](%DISCUSSION LINK%)** or join our **[Discord](%DISCORD LINK%)**.
 
 ## Contributing
