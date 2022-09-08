@@ -12,7 +12,9 @@
 <!-- Badges -->
 <div align="center">
   <!-- Stability -->
-  <img alt="GitHub Build State" src="">
+  <img alt="PyPI Build State" src="">
+  <!-- Stability -->
+  <img alt="Docker State" src="">
   <!-- Stability -->
   <img alt="Pylint State" src="">
   <!-- CodeQL -->
@@ -72,6 +74,16 @@ $ cd %PROGRAM NAME%
 
 # Run %PROGRAM NAME%
 $ python main.py
+```
+
+You can also install the package from [PyPI](%PYPI LINK%). From your command line:
+
+```bash
+# Install with pip
+pip install %PROGRAM NAME%
+
+# Run %PROGRAM NAME%
+%PROGRAM PIP COMMAND%
 ```
 
 You can also pull the [Docker](https://www.docker.com/) image from GitHub Packages. From your command line:
