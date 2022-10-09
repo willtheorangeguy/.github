@@ -42,7 +42,7 @@ While using Our Service, We may ask You to provide Us with certain personally id
 
 We use [Simple Analytics](https://simpleanalytics.com/?referral=willtheorangeguy) to see who uses our website. Simple Analytics is privacy-focused, and they only "collect information that is necessary to show ... simple analytics, but unlike other analytics tools, [do not] collect more than absolutely necessary." They do not collect cookies, and are GDPR friendly.
 
-Their privacy policy is available [here](https://simpleanalytics.com/privacy-policy). 
+Their privacy policy is available [here](https://simpleanalytics.com/privacy-policy).
 
 ## Use of Your Personal Data
 
