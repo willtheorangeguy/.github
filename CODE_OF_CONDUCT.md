@@ -60,7 +60,7 @@ representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement by email at
-[willtheorangeguy@outlook.com](mailto:willtheorangeguy@outlook.com).
+[18339050+willtheorangeguy@users.noreply.github.com](mailto:18339050+willtheorangeguy@users.noreply.github.com).
 
 All complaints will be reviewed and investigated promptly and fairly.
 
