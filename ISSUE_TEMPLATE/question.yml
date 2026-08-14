@@ -4,11 +4,6 @@ title: "[Question]: "
 labels: ["question"]
 assignees: ["willtheorangeguy"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        If this repository has **Discussions** enabled, that is usually the better place to ask — it keeps the issue tracker focused on bugs and features.
-
   - type: checkboxes
     id: search
     attributes:
