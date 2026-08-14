@@ -1,24 +1,33 @@
-**Describe the Pull Request**
+## Description
 
-A clear and concise description of what the pull request does.
+<!-- What does this pull request do, and why? -->
 
-**Expected Behavior**
+## Related Issues
 
-A clear and concise description of what you expected to happen.
+<!-- e.g. "Closes #12", "Part of #34". Write "None" if this isn't tied to an issue. -->
 
-**Fixes the Following Issues**
+## Type of Change
 
-A clear and concise description of what you expected to happen.
+<!-- Mark all that apply with an "x". -->
 
-**Screenshots**
+- [ ] Bug fix (non-breaking change that fixes an issue)
+- [ ] New feature (non-breaking change that adds functionality)
+- [ ] Breaking change (existing behaviour changes in a way that could break users)
+- [ ] Documentation
+- [ ] Maintenance — refactor, dependencies, tooling, formatting
 
-If applicable, add screenshots to help explain your problem.
+## How This Was Tested
 
-**Desktop Developed On (please complete the following information):**
+<!-- What did you run, and on what? Include the OS and version if it matters. -->
 
-- OS: [e.g. Windows]
-- Program Version [e.g. 22]
+## Screenshots
 
-**Additional Context**
+<!-- If this changes the interface, show before and after. Delete this section if not applicable. -->
 
-Add any other context about the problem here.
+## Checklist
+
+- [ ] I have read the [Contributing Guide](https://github.com/willtheorangeguy/.github/blob/main/CONTRIBUTING.md)
+- [ ] My change follows the style of the surrounding code
+- [ ] I have self-reviewed my own changes
+- [ ] Existing tests pass, and I have added tests covering my change where it made sense
+- [ ] I have updated the documentation in `docs/` where behaviour, configuration, or usage changed

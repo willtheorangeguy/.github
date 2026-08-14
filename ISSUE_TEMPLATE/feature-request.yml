@@ -1,0 +1,42 @@
+name: Feature Request
+description: Suggest an idea for this project.
+title: "[Feature]: "
+labels: ["enhancement"]
+assignees: ["willtheorangeguy"]
+body:
+  - type: checkboxes
+    id: search
+    attributes:
+      label: Preflight
+      options:
+        - label: I searched the existing issues and this has not already been suggested.
+          required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the problem you are running into, not just the feature you want. It makes alternatives easier to discuss.
+      placeholder: "I'm always frustrated when..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like to happen?
+      description: A clear and concise description of the change you have in mind.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What alternatives have you considered?
+      description: Other approaches, workarounds you are using today, or other tools that solve this.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else?
+      description: Mockups, examples from other projects, or other context.

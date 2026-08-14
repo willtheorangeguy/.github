@@ -1,59 +1,60 @@
-# Contributing to a @willtheorangeguy project
+# Contributing
 
-🎉 Thanks for taking the time to contribute! 🎉
+Thanks for taking the time to contribute.
 
-The following is a set of guidelines for contributing to this project on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+These are guidelines, not rules — use your best judgment, and feel free to propose changes to this document in a pull request. They apply to every [@willtheorangeguy](https://github.com/willtheorangeguy) repository unless that repository says otherwise.
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to our Discord.
+This project is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold it.
 
-## New Contributor Guide
+## Before You Start
 
-To get an overview of the project, read the [README](README.md). Here are some resources to help you get started with open source contributions:
+Read the project's `README.md`, and its `docs/` folder if it has one. New to open source? These help:
 
-- [Finding ways to contribute to open source on GitHub](https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github).
-- [Set up Git](https://docs.github.com/en/get-started/quickstart/set-up-git).
-- [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow).
-- [Collaborating with pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests).
+* [Finding ways to contribute to open source on GitHub](https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github)
+* [Set up Git](https://docs.github.com/en/get-started/getting-started-with-git/set-up-git)
+* [GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow)
+* [Collaborating with pull requests](https://docs.github.com/en/pull-requests)
 
-Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and open a pull request.
+## Reporting a Bug
 
-## How to Contribute
+1. **Search the existing issues first** — it may already be filed.
+2. If it isn't, open one using the **Bug Report** template.
+3. Include a clear title, what you expected, what happened instead, and the steps to reproduce. A minimal code sample or failing test case is worth more than a paragraph of description.
 
-### Did you find a bug?
+**Found a security vulnerability? Do not open an issue.** Follow the [Security Policy](SECURITY.md) instead.
 
-- **Ensure the bug was not already reported** by searching on GitHub under Issues.
-- If you're unable to find an open issue addressing the problem, open a new one! Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample** or an **executable test case** demonstrating the expected behavior that is not occurring.
-- Use the issue templates to create the issue. They include step by step guidelines and have lists of things that should be included.
+## Suggesting a Feature
 
-### Did you write a patch that fixes a bug or updates the documentation?
+1. Search the existing issues, including those labelled `enhancement`.
+2. If nothing covers it, open one using the **Feature Request** template.
+3. Describe the problem you are trying to solve, not just the solution you have in mind — it makes alternatives easier to discuss.
 
-- Open a new Pull Request on GitHub with the patch.
-- Ensure the pull request description clearly describes the problem and solution. Be sure to include a **title**, and as much relevant information as possible. Include the relevant issue number if applicable.
+## Submitting a Pull Request
 
-### Did you fix whitespace, format code, or make a purely cosmetic patch?
+Contribute using [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow): branch, commit, open a pull request.
 
-- Changes that are cosmetic in nature and do not add anything substantial to the stability, functionality, or testability of the project are still accepted! Just follow the same instructions as above.
+1. Fork the repository and create a branch from the default branch.
+2. Make your change. Keep the pull request focused on one thing.
+3. If the project has tests, make sure they pass. If you fixed a bug, add a test that would have caught it.
+4. Update the documentation in `docs/` if your change affects behaviour, configuration, or usage.
+5. Open the pull request and fill in the template. Reference the issue it closes.
 
-### Do you intend to add a new feature or change an existing one?
-
-- **Ensure the feature was not already introduced** by searching on GitHub under Issues. Look for those under the enhancement tag.
-- If you're unable to find an open issue addressing the new feature, open a new one!
-
-### Do you have questions about the source code?
-
-- Ask any question about how to use this project on our Discord.
-- If it does not get answered, open an Issue!  
+Cosmetic changes — formatting, whitespace, typo fixes — are welcome. Follow the same process.
 
 ## Coding Conventions
 
-Start reading our code and you'll get the hang of it.
+* Match the style of the code around you. That takes precedence over anything below.
+* Indent with four spaces, not tabs.
+* Comment anything whose purpose isn't obvious from reading it.
+* Write commit messages in the imperative mood: "Add retry to the fetch loop", not "Added" or "Adds".
+* Versioning follows [Semantic Versioning](https://semver.org/).
 
-- We indent using four spaces (NOT tabs).
-- Every function or piece of code should be heavily commented.
-- We use [Semantic Versioning](https://semver.org/).
+## Questions
+
+Open a **GitHub Discussion** on the repository, or an issue using the **Question** template if the repository has discussions disabled.
 
 ## Attribution
 
-This document is adapted from the `CONTRIBUTING` documents of [Rails](https://github.com/rails/rails/blob/main/CONTRIBUTING.md), the [GitHub Docs](https://github.com/github/docs/blob/main/CONTRIBUTING.md), [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md), and [OpenGovernment](https://github.com/opengovernment/opengovernment/blob/master/CONTRIBUTING.md?plain=1).  
+Adapted from the contributing guides of [Rails](https://github.com/rails/rails/blob/main/CONTRIBUTING.md), [GitHub Docs](https://github.com/github/docs/blob/main/CONTRIBUTING.md), [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md), and [OpenGovernment](https://github.com/opengovernment/opengovernment/blob/master/CONTRIBUTING.md).
