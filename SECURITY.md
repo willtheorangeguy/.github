@@ -1,28 +1,57 @@
 # Security Policy
 
-The security of our software products and services is serious, which includes all source code repositories managed through the GitHub user [@willtheorangeguy](https://github.com/willtheorangeguy/).
-
-If you believe you have found a security vulnerability in any repository, please report it to us as described below in [Reporting a Vulnerability](#reporting-a-vulnerability).
-
-## Supported Versions
-
-The following versions of this @willtheorangeguy project are currently supported:
-
-| Version  | Supported          |
-| -------- | ------------------ |
-| `>0.x.x` | :white_check_mark: |
+This policy applies to all source code repositories managed under the GitHub account [@willtheorangeguy](https://github.com/willtheorangeguy/).
 
 ## Reporting a Vulnerability
 
-Please open an issue to report a security vulnerability. Please include the requested information listed below (as much as you can provide) to help us better understand the nature and scope of the possible issue:
+**Please do not report security vulnerabilities through public issues, discussions, or pull requests.**
 
-* Type of issue (e.g. buffer overflow, SQL injection, cross-site scripting, etc.)
-* Full paths of source file(s) related to the manifestation of the issue
-* The location of the affected source code (tag/branch/commit or direct URL)
-* Any special configuration required to reproduce the issue
-* Step-by-step instructions to reproduce the issue
-* Proof-of-concept or exploit code (if possible)
-* Impact of the issue, including how an attacker might exploit the issue
-* This information will help us triage your report more quickly.
+Report them privately through GitHub's [private vulnerability reporting](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability). On the affected repository, open the **Security** tab and choose **Report a vulnerability**. Only you and the maintainer will see the report until a fix is published.
 
-Contributions should follow the [`CODE_OF_CONDUCT`](CODE_OF_CONDUCT.md) and [`CONTRIBUTING`](CONTRIBUTING.md) documents.
+Please include as much of the following as you can:
+
+* The type of issue (buffer overflow, SQL injection, cross-site scripting, path traversal, and so on)
+* Full paths of the source files related to the issue
+* The location of the affected code — tag, branch, commit, or a direct URL
+* Any special configuration needed to reproduce it
+* Step-by-step reproduction instructions
+* Proof-of-concept or exploit code, if you have it
+* The impact, including how an attacker might exploit it
+
+This information helps triage the report faster.
+
+## What to Expect
+
+| Stage | Target |
+| ----- | ------ |
+| Acknowledgement of your report | Within 7 days |
+| Initial assessment and severity triage | Within 14 days |
+| Fix released, or a timeline shared with you | Within 90 days |
+
+These are targets for personal, unfunded projects, not contractual guarantees. If a report goes unanswered past these windows, you are welcome to escalate by opening a *non-sensitive* issue that says only that you are awaiting a response — please do not include vulnerability details.
+
+## Supported Versions
+
+Only the latest release of a given project receives security fixes. Older tags are not patched.
+
+| Version | Supported |
+| ------- | ------------------ |
+| Latest release | :white_check_mark: |
+| Everything else | :x: |
+
+## Disclosure
+
+Fixes are published as a new release with a GitHub Security Advisory. If you would like credit, say so in your report and you will be named in the advisory. If you would prefer not to be named, that is fine too.
+
+Please give a reasonable window for a fix to ship before disclosing publicly.
+
+## Scope
+
+Reports about the code in these repositories are in scope. The following are generally **out of scope**:
+
+* Vulnerabilities in third-party dependencies — report those upstream, though a heads-up here is welcome
+* Findings that require physical access to a user's unlocked device
+* Missing security headers or hardening suggestions with no demonstrated impact
+* Automated scanner output submitted without a working proof of concept
+
+Participation is governed by the [Code of Conduct](CODE_OF_CONDUCT.md).

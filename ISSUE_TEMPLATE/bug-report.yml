@@ -1,0 +1,77 @@
+name: Bug Report
+description: Report something that isn't working as expected.
+title: "[Bug]: "
+labels: ["bug"]
+assignees: ["willtheorangeguy"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug report.
+
+        **Do not use this form to report a security vulnerability.** Follow the [Security Policy](https://github.com/willtheorangeguy/.github/blob/main/SECURITY.md) instead.
+
+  - type: checkboxes
+    id: search
+    attributes:
+      label: Preflight
+      options:
+        - label: I searched the existing issues and this has not already been reported.
+          required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear and concise description of the bug.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Be specific enough that someone else can follow along.
+      placeholder: |
+        1. Run `...`
+        2. Enter `...`
+        3. See the error
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant output or logs
+      description: Paste any error message or traceback. This is automatically formatted as code, so no backticks needed.
+      render: shell
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Which version of the project are you running?
+      placeholder: "1.2.3, or a commit SHA"
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "Windows 11, macOS 15.2, Ubuntu 24.04"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else?
+      description: Screenshots, configuration, or other context that might help.

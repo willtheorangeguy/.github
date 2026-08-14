@@ -1,54 +1,50 @@
-<!-- Logo -->
-<h1 align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/01_Icon-Community%402x.png" width="300px" height="300px" alt=".github">
-  <br>
-  .github
-  <br>
-</h1>
-
 <!-- Copy -->
-<h4 align="center">All the community health files that should be automatically included as defaults in each of the <a href="https://github.com/willtheorangeguy?tab=repositories">@willtheorangeguy repositories</a>.</h4>
+<h1 align="center">.github</h1>
+
+<h4 align="center">Community health files, issue templates, and canonical license texts shared across every @willtheorangeguy repository.</h4>
 
 <!-- Badges -->
 <div align="center">
-  <!-- Issues -->
   <img alt="GitHub Issues" src="https://img.shields.io/github/issues/willtheorangeguy/.github">
-  <!-- Pull Requests -->
   <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/willtheorangeguy/.github">
+  <img alt="License" src="https://img.shields.io/github/license/willtheorangeguy/.github">
 </div>
 
 <!-- Navigation -->
 <p align="center">
   <a href="#key-features">Key Features</a> •
-  <a href="#download">Download</a> •
-  <a href="#how-to-use">How To Use</a> •
+  <a href="#how-it-works">How It Works</a> •
+  <a href="#usage">Usage</a> •
   <a href="#support">Support</a> •
-  <a href="#contributors">Contributors</a>
+  <a href="#contributing">Contributing</a> •
+  <a href="#license">License</a>
 </p>
 
 ## Key Features
 
-* Issue Templates (Bug Report, Feature Request and Question)
-* Pull Request Template
-* Code of Conduct Documentation
-* Contributing Documentation
-* GitHub Sponsors Configuration File
-* Creative Commons License
-* Security Policy
+* Code of Conduct, Contributing Guide, and Security Policy inherited by every repository that does not define its own.
+* Issue forms for bug reports, feature requests, and questions, with required fields and structured output.
+* Pull request template with a change-type and review checklist.
+* Canonical MIT and CC BY 4.0 license texts, plus the one approved copyright line.
+* Shared image assets for every repository, served from `icons/`.
+* GitHub Sponsors and funding configuration.
 
-## Download
+## How It Works
 
-You can **[download](https://github.com/willtheorangeguy/.github/archive/refs/heads/main.zip) the files** to add them to your own Github repository.
-
-You can also **[fork](https://github.com/willtheorangeguy/.github/fork) the repository** to start a new GitHub repository based off these community health files.
-
-## How To Use
+GitHub treats a repository named `.github` as the account's default source for community health files. Any repository under [@willtheorangeguy](https://github.com/willtheorangeguy) that does **not** contain its own copy of a file below automatically inherits the one here — nothing needs to be copied.
 
 ```text
 ├── ISSUE_TEMPLATE
-|   ├── bug-report.md
-|   ├── feature-request.md
-|   ├── question.md
+|   ├── bug-report.yml
+|   ├── config.yml
+|   ├── feature-request.yml
+|   └── question.yml
+├── icons
+|   └── <repository>/...
+├── licenses
+|   ├── CC-BY-4.0.md
+|   ├── MIT.md
+|   └── README.md
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── FUNDING.yml
@@ -56,22 +52,33 @@ You can also **[fork](https://github.com/willtheorangeguy/.github/fork) the repo
 └── SECURITY.md
 ```
 
-To add these projects to your own repository, just download or create a fork following the instructions above. Then edit each of the files to match the goals of your community. Commit and upload the files, and you're all set!
+Two things are **not** inherited and must live in each repository:
+
+| File | Why |
+| ---- | --- |
+| `LICENSE.md` | GitHub only detects a license from the repository it sits in. Write it out from [`licenses/`](licenses/). |
+| `.github/dependabot.yml` | Dependabot configuration is never inherited from the `.github` repository. |
+
+## Usage
+
+Images are referenced by absolute URL rather than copied into each repository, so a logo is updated once and changes everywhere:
+
+```text
+https://raw.githubusercontent.com/willtheorangeguy/.github/main/icons/<repository>/logo.png
+```
+
+This repository must stay **public** for those URLs to resolve.
+
+To reuse these files in your own account, [fork the repository](https://github.com/willtheorangeguy/.github/fork) or [download it](https://github.com/willtheorangeguy/.github/archive/refs/heads/main.zip), rename it to `.github`, and edit each file to match your community.
 
 ## Support
 
-If you need more assistance in setting up your GitHub community, visit their dedicated documentation pages [here](https://docs.github.com/en/communities).
+Open a [GitHub Discussion](https://github.com/willtheorangeguy/.github/discussions/new) or file an [issue](https://github.com/willtheorangeguy/.github/issues/new/choose).
 
-## Contributors
+## Contributing
 
-* [@willtheorangeguy](https://github.com/willtheorangeguy) - Sponsor on [PayPal](https://paypal.me/wvdg44?country.x=CA&locale.x=en_US)
-
-## You may also like...
-
-* [Running Calculator](https://github.com/willtheorangeguy/Running-Calculator) - A running distance and speed command line interface.
-* [Snoopy Landing Page](https://github.com/willtheorangeguy/Snoopy-Landing-Page) - A simple under construction landing page that features Charles M. Schulz's iconic Snoopy Beagle.
-* [Python Logo Widgets](https://github.com/willtheorangeguy/Python-Logo-Widgets) - Python Powered Logo widgets that can be added to any GUI project.
+Contributions welcome. See the [Contributing Guide](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
-This project is licensed under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/) - see the [`LICENSE`](LICENSE.md) file for details. The logo image is used under the same license, with the original available [here](https://commons.wikimedia.org/wiki/File:01_Icon-Community@2x.png).
+MIT — see [`LICENSE.md`](LICENSE.md).
